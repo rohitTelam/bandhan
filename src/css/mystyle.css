@@ -1,0 +1,62 @@
+.myheader{
+    height: 100px;
+    background-color: lightseagreen;
+}
+.logo{
+    width:100px;
+    height:70px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+/* .topmenu{
+
+} */
+.topmenu ul{
+    line-height: 80px;
+}
+.topmenu ul li a{
+   color: #fff;
+   font-weight: bold;
+    
+}
+.topmenu ul li a:hover{
+    transition: 0.5s;
+    color: greenyellow;
+    
+    
+}
+.mainContent{
+    width: 100%;
+    height: 475px;
+}
+.footer{
+    height: 50px;
+    background-color: lightseagreen;
+}
+.socials{
+    margin-left: 45px;
+}
+.socials i{
+    line-height: 50px;
+    color: #fff;
+    padding-left: 15px;
+
+}
+.socials i:hover{
+    transition: 0.5s;
+   color: greenyellow;
+}
+.footer .medeby p{
+    color: #fff;
+    font-weight: bold;
+    text-align: right;
+    padding-top: 10px;
+}
+.mylogin{
+    background-image: linear-gradient(lightseagreen, rgb(243, 234, 108));
+    height: 475px;
+}
+.mylogin .loginbox{
+    width: 30%;
+    align-items: center;
+}
