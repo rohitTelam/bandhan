@@ -11,20 +11,22 @@ import Login from './components/login/Login';
 import About from './components/about/About';
 import Registration from './components/registration/Registration';
 import Services from './components/services/Services';
+import Dashboard from './components/dashboard/Dashboard';
+import List from './components/dashboard/List';
 
 function App() {
   return (
     <BrowserRouter>
       <div>
-        <Header />
         <Switch>
           <Route path="/" exact component={MainContent} />
           <Route path="/About" component={About} />
           <Route path="/Services" component={Services} />
           <Route path="/Registration" component={Registration} />
           <Route path="/Login" component={Login} />
+          <Route path="/Dashboard" component={Dashboard} />
+          <Route path="/List" component={List} />
         </Switch>
-        <Footer />
       </div>
     </BrowserRouter>
   );

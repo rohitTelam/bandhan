@@ -1,10 +1,13 @@
 import React from 'react';
+import Header from '../header/Header';
+import Footer from '../footer/Footer';
 import Main from '../../images/main.jpg';
 
 
 function MainContent() {
   return (
     <>
+    <Header />
     <div className='container-fluid'>
         <div className='row'>
             <div className="col-lg-5">
@@ -18,6 +21,7 @@ function MainContent() {
             </div>
         </div>
     </div>
+    <Footer />
     </>
   );
 }

@@ -60,3 +60,51 @@
     width: 30%;
     align-items: center;
 }
+.myregistration{
+    background-image: linear-gradient(lightseagreen, rgb(243, 234, 108));
+    height: auto;
+}
+.myregistration .registrationbox{
+    width: 30%;
+    align-items: center;
+}
+.myprofilearea{
+    background-color:lightseagreen;
+}
+.myprofile{
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.myprofilemain nav ul li a{
+    background-color:#000;
+    
+}
+
+.mylogout ul li{
+    /* background-color: red; */
+    margin-top: 30px;
+    
+}
+.details{
+    width: 23%;
+    height: 250px;
+    background-color: royalblue;
+    margin: 10px;
+    float: left;
+    text-align: center;
+}
+.rec{
+    padding: 30px;
+}
+.rec p{
+    text-align: center;
+    background-color: #000;
+    padding: 50px;
+    color: #fff;
+}
+/* .list_details{
+
+} */

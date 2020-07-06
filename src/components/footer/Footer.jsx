@@ -14,7 +14,7 @@ function Footer() {
             </div>
           </div>
           <div className="col-lg-9 medeby">
-              <p className="mr-5">&copy; Right YoreHireness 2020</p>
+              <p className="mr-5">ABPS Instead of your highness | Copyright &copy; 2020. All rights reserved.</p>
             </div>
         </div>
     </div>
