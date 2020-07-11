@@ -17,16 +17,13 @@ function Dashboard() {
                
                 </div>
                 <div className="col-lg-8">
-
+                  <h2 className='mt-5 ml-5'>Dashboard</h2>
                 </div>
                 <div className="col-lg-2 mylogout">
                 <div className='col-lg-9 topmenu'>
                   <ul class="nav float-right mr-5">
                       <li class="nav-item">
                       <Link to="/" class="nav-link btn btn-danger" href="#">Logout</Link>
-                      </li>
-                      <li class="nav-item">
-                      <Link to="/List" class="nav-link btn btn-danger" href="#">List</Link>
                       </li>
                   </ul>
                 </div>
@@ -37,7 +34,7 @@ function Dashboard() {
                 <nav class="navbar">
                     <ul class="navbar-nav">
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Search</a>
+                        <Link to="/List" class="nav-link" href="#">Search</Link>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#">Chat</a>

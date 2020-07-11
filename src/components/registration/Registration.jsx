@@ -3,6 +3,7 @@ import Header from '../header/Header';
 import Footer from '../footer/Footer';
 import { Link } from 'react-router-dom';
 
+
 function Registration() {
   return (
     <>
@@ -31,6 +32,7 @@ function Registration() {
                         <select className='form-control'>
                             <option value="M">Male</option>
                             <option value="F">Female</option>
+                            <option value="O">Other</option>
                         </select>
                     </div>
                     <div class="form-group">
