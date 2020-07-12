@@ -29,6 +29,10 @@
     width: 100%;
     height: 475px;
 }
+.mainimg h1 h3 p{
+    color:#fff;
+    
+}
 .footer{
     height: 50px;
     background-color: lightseagreen;

@@ -18,7 +18,7 @@ function MainContent() {
               <p className='align-justify'>Lorazepam, sold under the brand name Ativan among others, is a benzodiazepine medication. It is used to treat anxiety disorders, trouble sleeping, active seizures including status epilepticus, alcohol withdrawal, and chemotherapy-induced nausea and vomiting. </p>
               <p className='align-justify'>Lorazepam, sold under the brand name Ativan among others, is a benzodiazepine medication. It is used to treat anxiety disorders, trouble sleeping, active seizures including status epilepticus, alcohol withdrawal, and chemotherapy-induced nausea and vomiting. </p>
             </div>
-            <div className="col-lg-7">
+            <div className="col-lg-7 mainimg">
 
             <Carousel>
                 <Carousel.Item>
@@ -26,6 +26,7 @@ function MainContent() {
                     className="d-block w-100"
                     src={Main}
                     alt="First slide"
+
                   />
                   <Carousel.Caption>
                     <h3>First slide label</h3>

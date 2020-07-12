@@ -1,9 +1,7 @@
 import React from 'react';
-import Header from '../header/Header';
 import Footer from '../footer/Footer';
 import Details from '../dashboard/Details';
 import Profile from '../../images/profile.png';
-import Logo from '../../images/logo.jpeg';
 import { Link } from 'react-router-dom';
 
 function Dashboard() {
@@ -13,7 +11,7 @@ function Dashboard() {
        <div className='container-fluid myprofilemain'>
         
              <div className='row'>
-                <div className="col-lg-2 myprofilearea"><img src={Profile} className="rounded-circle myprofile" />
+                <div className="col-lg-2 myprofilearea"><img src={Profile} alt="profile" className="rounded-circle myprofile" />
                
                 </div>
                 <div className="col-lg-8">
@@ -37,13 +35,13 @@ function Dashboard() {
                         <Link to="/List" class="nav-link" href="#">Search</Link>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Chat</a>
+                        <Link to="/#" class="nav-link" href="#">Chat</Link>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Interested Matches</a>
+                        <Link to="/#" class="nav-link" href="#">Interested Matches</Link>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Viewed</a>
+                        <Link to="/#" class="nav-link" href="#">Viewed</Link>
                       </li>
                     </ul>
                   </nav>
